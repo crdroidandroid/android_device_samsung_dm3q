@@ -330,7 +330,7 @@ vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|5b8e8f6ca626eb3b38387c1f2
 vendor/lib64/libqc2audio_hwaudiocodec.so
 
 # NFC
-vendor/etc/nfc/libnfc-nxp_RF.conf
+vendor/etc/nfc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
 # RIL
 vendor/bin/qms
