@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_samsung_sm8550-common",
+    "target_path": "device/samsung/sm8550-common"
+    "branch": "16.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_samsung_dm1q",
+    "target_path": "vendor/samsung/dm3q",
+    "branch": "16.0"
+  }
+]
