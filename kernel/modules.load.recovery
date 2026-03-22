@@ -1,11 +1,9 @@
 gh_arm_drv.ko
 sched-walt.ko
-msm_sysstats.ko
 twofish_generic.ko
 twofish_common.ko
 ssg.ko
 blk-sec-common.ko
-blk-sec-stats.ko
 blk-sec-wb.ko
 qcom-pdc.ko
 msm_show_resume_irq.ko
@@ -29,6 +27,7 @@ pinctrl-kalama.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
+pwm-gpclk.ko
 pci-msm-drv.ko
 lcd.ko
 clk-qcom.ko
@@ -113,7 +112,6 @@ spcom.ko
 msm_performance.ko
 minidump.ko
 qcom_va_minidump.ko
-hung_task_enh.ko
 debug_symbol.ko
 wcd_usbss_i2c.ko
 qti-fixed-regulator.ko
@@ -198,7 +196,6 @@ cpu_hotplug.ko
 cpu_voltage_cooling.ko
 ddr_cdev.ko
 max31760_fan.ko
-msm_lmh_dcvs.ko
 policy_engine.ko
 qti_qmi_cdev.ko
 qti_qmi_sensor_v2.ko
@@ -261,10 +258,10 @@ icc-rpmh.ko
 qnoc-qos.ko
 sec_class.ko
 sec_key_notifier.ko
-sec_log_buf.ko
 sec_qc_rbcmd.ko
-sec_reboot_cmd.ko
 sec_qc_qcom_reboot_reason.ko
+sec_log_buf.ko
+sec_reboot_cmd.ko
 switch_class.ko
 switch_gpio.ko
 pmic_class.ko
@@ -288,6 +285,7 @@ fingerprint.ko
 fingerprint_sysfs.ko
 qbt2000_spidev.ko
 cl_dsp.ko
+input_booster_lkm.ko
 pdic_notifier_module.ko
 pca9481_charger.ko
 input-cs40l26-i2c.ko

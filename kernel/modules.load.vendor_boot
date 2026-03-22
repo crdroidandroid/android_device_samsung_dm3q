@@ -81,8 +81,8 @@ stub-regulator.ko
 qcom_aoss.ko
 msm_qmp.ko
 ufs_qcom.ko
-ufshcd-crypto-qti.ko
 sec_class.ko
+ufshcd-crypto-qti.ko
 arm_smmu.ko
 qcom_rimps.ko
 c1dcvs_vendor.ko

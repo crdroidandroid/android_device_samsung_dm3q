@@ -1,10 +1,8 @@
-msm_sysstats.ko
 twofish_generic.ko
 twofish_common.ko
 ssg.ko
 blk-sec-wb.ko
 blk-sec-common.ko
-blk-sec-stats.ko
 msm_show_resume_irq.ko
 mhi.ko
 pci-msm-drv.ko
@@ -27,6 +25,7 @@ phy-qcom-ufs-qmp-v4-kona.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
+pwm-gpclk.ko
 lcd.ko
 gpucc-kalama.ko
 bam_dma.ko
@@ -87,7 +86,6 @@ spss_utils.ko
 qcom_spss.ko
 spcom.ko
 msm_performance.ko
-hung_task_enh.ko
 qti-fixed-regulator.ko
 qti-ocp-notifier.ko
 msm_geni_serial.ko
@@ -143,7 +141,6 @@ bcl_soc.ko
 cpu_voltage_cooling.ko
 ddr_cdev.ko
 max31760_fan.ko
-msm_lmh_dcvs.ko
 policy_engine.ko
 qti_qmi_cdev.ko
 qti_qmi_sensor_v2.ko
@@ -178,10 +175,10 @@ qcom-vadc-common.ko
 industrialio-buffer-cb.ko
 nvmem_qfprom.ko
 sec_key_notifier.ko
-sec_log_buf.ko
 sec_qc_rbcmd.ko
 sec_reboot_cmd.ko
 sec_qc_qcom_reboot_reason.ko
+sec_log_buf.ko
 switch_gpio.ko
 pmic_class.ko
 vibrator_vib_info.ko
@@ -203,6 +200,7 @@ fingerprint.ko
 fingerprint_sysfs.ko
 qbt2000_spidev.ko
 cl_dsp.ko
+input_booster_lkm.ko
 pca9481_charger.ko
 input-cs40l26-i2c.ko
 hall_ic.ko
@@ -313,3 +311,5 @@ rmnet_shs.ko
 wcd939x_slave_dlkm.ko
 radio-i2c-rtc6226-qca.ko
 ipanetm.ko
+debugcc-kalama.ko
+sched-walt.ko
