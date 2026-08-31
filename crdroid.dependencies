@@ -1,7 +1,7 @@
 [
   {
     "repository": "crdroidandroid/android_device_samsung_sm8550-common",
-    "target_path": "device/samsung/sm8550-common"
+    "target_path": "device/samsung/sm8550-common",
     "branch": "16.0"
   },
   {
